@@ -18,4 +18,6 @@ class App < Sinatra::Base
     repeated = (phrase * times).to_s
   end 
   
+  get ''
+  
 end
