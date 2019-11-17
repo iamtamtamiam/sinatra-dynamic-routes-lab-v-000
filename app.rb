@@ -34,7 +34,7 @@ class App < Sinatra::Base
     elsif operation == "multiply"
       product == (num1 * num2).to_s
     else operation == "divide"
-      quotient == (num1num2).to_s
+      quotient == (num1/num2).to_s
     end 
       
   end 
