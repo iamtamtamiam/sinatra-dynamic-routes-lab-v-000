@@ -29,8 +29,12 @@ class App < Sinatra::Base
     
     if operation == "add"
       sum = (num1 + num2).to_s
-    else operation == "subtract"
+    elsif operation == "subtract"
       difference = (num1 - num2).to_s
+    elsif operation == "multiply"
+      product == (num1 * num2).to_s
+    else operation == "divide"
+      quotient == (num1num2).to_s
     end 
       
   end 
